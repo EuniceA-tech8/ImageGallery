@@ -29,5 +29,6 @@ struct CustomImage: View {
 
 #Preview {
     CustomImage(imageName:"beach.png", borderSize: 10, borderColor: .blue, shadowRadius: 20)
-    CustomImage(imageName:"forest", borderSize: 0, borderColor: .green, shadowRadius: 20)
+    CustomImage(imageName:"forest", borderSize: 10, borderColor: .green, shadowRadius: 20)
+    CustomImage(imageName:"strawberryfield", borderSize: 10, borderColor: .pink, shadowRadius: 20)
 }
